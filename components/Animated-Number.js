@@ -11,7 +11,7 @@ import Timer from "react-timer-mixin";
 
 const HALF_RAD = Math.PI / 2;
 
-export default class AnimatedNumber extends Component {
+export default class AnimateNumber extends Component {
   props: {
     countBy?: ?number,
     interval?: ?number,
